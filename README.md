@@ -80,4 +80,4 @@ Options:
 
 ## License
 
-The `.info` reference files are extracted from Crusader Kings III by Paradox Interactive. The guide content is original documentation.
+The `.info` reference files are extracted from Crusader Kings III by Paradox Interactive. The guide content is original documentation derived from content created by the CK3 community. I take no credit for the extensive documentation this skill is based on.
