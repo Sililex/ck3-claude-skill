@@ -10,23 +10,33 @@ A Claude Code plugin that provides expert assistance with Crusader Kings III mod
 
 ## Installation
 
-### From the Marketplace
+### From the Marketplace (pending approval)
 
-Search for `ck3-modding` in the Claude Code plugin marketplace, or install directly:
+This plugin has been submitted to the Claude Code plugin marketplace. Once approved, it will be installable directly from there.
+
+### As a Plugin
+
+Load the plugin when starting Claude Code:
 
 ```bash
-claude plugin add ck3-modding
+claude --plugin-dir /path/to/ck3-claude-skill
 ```
 
-### Manual Installation
+Or test it in an existing session with the `/plugin` command.
+
+### As a Skill (manual)
+
+Copy or symlink the skill directory directly:
 
 ```bash
-# Option 1: Symlink (recommended — stays in sync with repo)
+# Option 1: Symlink (stays in sync with repo)
 ln -s /path/to/ck3-claude-skill/skills/ck3-modding ~/.claude/skills/ck3-modding
 
 # Option 2: Copy
 cp -r /path/to/ck3-claude-skill/skills/ck3-modding ~/.claude/skills/ck3-modding
 ```
+
+Claude Code will automatically load `SKILL.md` when working in any CK3 mod project.
 
 ## Updating Reference Files
 
