@@ -1,6 +1,6 @@
-# CK3 Modding Skill for Claude Code
+# CK3 Modding — Claude Code Plugin
 
-A Claude Code skill that provides expert assistance with Crusader Kings III modding. Covers the full Paradox "Jomini" scripting language — scopes, effects, triggers, events, decisions, and every major moddable system.
+A Claude Code plugin that provides expert assistance with Crusader Kings III modding. Covers the full Paradox "Jomini" scripting language — scopes, effects, triggers, events, decisions, and every major moddable system.
 
 ## What's Included
 
@@ -10,17 +10,23 @@ A Claude Code skill that provides expert assistance with Crusader Kings III modd
 
 ## Installation
 
-Copy or symlink the `ck3-modding/` directory into your Claude Code skills folder:
+### From the Marketplace
+
+Search for `ck3-modding` in the Claude Code plugin marketplace, or install directly:
+
+```bash
+claude plugin add ck3-modding
+```
+
+### Manual Installation
 
 ```bash
 # Option 1: Symlink (recommended — stays in sync with repo)
-ln -s /path/to/ck3-claude-skill/ck3-modding ~/.claude/skills/ck3-modding
+ln -s /path/to/ck3-claude-skill/skills/ck3-modding ~/.claude/skills/ck3-modding
 
 # Option 2: Copy
-cp -r /path/to/ck3-claude-skill/ck3-modding ~/.claude/skills/ck3-modding
+cp -r /path/to/ck3-claude-skill/skills/ck3-modding ~/.claude/skills/ck3-modding
 ```
-
-Claude Code will automatically load `SKILL.md` when working in any CK3 mod project.
 
 ## Updating Reference Files
 

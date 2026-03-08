@@ -1,0 +1,11 @@
+{
+  "name": "ck3-modding",
+  "description": "Expert CK3 modding assistance — scripting, events, triggers, effects, scopes, localization, and every major moddable system in Crusader Kings III",
+  "version": "1.0.0",
+  "author": {
+    "name": "Sililex"
+  },
+  "repository": "https://github.com/Sililex/ck3-claude-skill",
+  "license": "MIT",
+  "keywords": ["ck3", "crusader-kings", "paradox", "modding", "jomini", "game-modding"]
+}
